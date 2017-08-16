@@ -1,0 +1,607 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node',
+1 verbose cli   'D:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.31
+4 verbose node symlink D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\\node\node
+5 warn package.json aspnet@0.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'D:\\Yearn\\Angular2\\Angular2',
+7 verbose install   [ '@angular/common',
+7 verbose install     '@angular/compiler',
+7 verbose install     '@angular/core',
+7 verbose install     '@angular/http',
+7 verbose install     '@angular/platform-browser',
+7 verbose install     '@angular/platform-browser-dynamic',
+7 verbose install     '@angular/router',
+7 verbose install     '@angular/router-deprecated',
+7 verbose install     '@angular/upgrade',
+7 verbose install     'systemjs',
+7 verbose install     'core-js',
+7 verbose install     'reflect-metadata',
+7 verbose install     'rxjs',
+7 verbose install     'zone.js',
+7 verbose install     'typescript',
+7 verbose install     'angular2-in-memory-web-api',
+7 verbose install     'concurrently',
+7 verbose install     'gulp',
+7 verbose install     'gulp-autoprefixer',
+7 verbose install     'gulp-cache',
+7 verbose install     'gulp-clean-css',
+7 verbose install     'gulp-concat',
+7 verbose install     'gulp-ext-replace',
+7 verbose install     'gulp-gulp',
+7 verbose install     'gulp-imagemin',
+7 verbose install     'gulp-jshint',
+7 verbose install     'gulp-less',
+7 verbose install     'gulp-minify-css',
+7 verbose install     'gulp-minify-html',
+7 verbose install     'gulp-rename',
+7 verbose install     'gulp-typescript',
+7 verbose install     'gulp-uglify',
+7 verbose install     'lite-server',
+7 verbose install     'typings' ] ]
+8 info preinstall aspnet@0.0.0
+9 warn package.json dom-serializer@0.1.0 No README data
+10 warn package.json is-natural-number@2.1.1 No README data
+11 warn package.json is-windows@0.2.0 No README data
+12 warn package.json popsicle-proxy-agent@3.0.0 No README data
+13 warn package.json popsicle-retry@3.2.1 No README data
+14 warn package.json promise-finally@2.2.1 No README data
+15 warn package.json throwback@1.1.1 No README data
+16 warn package.json bcrypt-pbkdf@1.0.1 No repository field.
+17 warn package.json callsite@1.0.0 No repository field.
+18 warn package.json colorspace@1.0.1 No repository field.
+19 warn package.json create-error-class@3.0.2 keywords should be an array of strings
+20 warn package.json gulp-minify-css@1.2.4 No repository field.
+21 warn package.json gulp-minify-html@1.0.6 No repository field.
+22 warn package.json has-binary@0.1.7 No repository field.
+23 warn package.json indexof@0.0.1 No repository field.
+24 warn package.json is-retry-allowed@1.1.0 keywords should be an array of strings
+25 warn package.json object-component@0.0.3 No repository field.
+26 warn package.json punycode@1.4.1 punycode is also the name of a node core module.
+27 warn package.json string_decoder@1.0.3 string_decoder is also the name of a node core module.
+28 verbose readDependencies using package.json deps
+29 verbose cache add [ '@angular/common@2.0.0-rc.1', null ]
+30 verbose cache add name=undefined spec="@angular/common@2.0.0-rc.1" args=["@angular/common@2.0.0-rc.1",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '@angular/common@2.0.0-rc.1',
+31 verbose parsed url   path: '@angular/common@2.0.0-rc.1',
+31 verbose parsed url   href: '@angular/common@2.0.0-rc.1' }
+32 verbose cache add [ '@angular/compiler@2.0.0-rc.1', null ]
+33 verbose cache add name=undefined spec="@angular/compiler@2.0.0-rc.1" args=["@angular/compiler@2.0.0-rc.1",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '@angular/compiler@2.0.0-rc.1',
+34 verbose parsed url   path: '@angular/compiler@2.0.0-rc.1',
+34 verbose parsed url   href: '@angular/compiler@2.0.0-rc.1' }
+35 verbose cache add [ '@angular/core@2.0.0-rc.1', null ]
+36 verbose cache add name=undefined spec="@angular/core@2.0.0-rc.1" args=["@angular/core@2.0.0-rc.1",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '@angular/core@2.0.0-rc.1',
+37 verbose parsed url   path: '@angular/core@2.0.0-rc.1',
+37 verbose parsed url   href: '@angular/core@2.0.0-rc.1' }
+38 verbose cache add [ '@angular/http@2.0.0-rc.1', null ]
+39 verbose cache add name=undefined spec="@angular/http@2.0.0-rc.1" args=["@angular/http@2.0.0-rc.1",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '@angular/http@2.0.0-rc.1',
+40 verbose parsed url   path: '@angular/http@2.0.0-rc.1',
+40 verbose parsed url   href: '@angular/http@2.0.0-rc.1' }
+41 verbose cache add [ '@angular/platform-browser@2.0.0-rc.1', null ]
+42 verbose cache add name=undefined spec="@angular/platform-browser@2.0.0-rc.1" args=["@angular/platform-browser@2.0.0-rc.1",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '@angular/platform-browser@2.0.0-rc.1',
+43 verbose parsed url   path: '@angular/platform-browser@2.0.0-rc.1',
+43 verbose parsed url   href: '@angular/platform-browser@2.0.0-rc.1' }
+44 verbose cache add [ '@angular/platform-browser-dynamic@2.0.0-rc.1', null ]
+45 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@2.0.0-rc.1" args=["@angular/platform-browser-dynamic@2.0.0-rc.1",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '@angular/platform-browser-dynamic@2.0.0-rc.1',
+46 verbose parsed url   path: '@angular/platform-browser-dynamic@2.0.0-rc.1',
+46 verbose parsed url   href: '@angular/platform-browser-dynamic@2.0.0-rc.1' }
+47 verbose cache add [ '@angular/router@2.0.0-rc.1', null ]
+48 verbose cache add name=undefined spec="@angular/router@2.0.0-rc.1" args=["@angular/router@2.0.0-rc.1",null]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '@angular/router@2.0.0-rc.1',
+49 verbose parsed url   path: '@angular/router@2.0.0-rc.1',
+49 verbose parsed url   href: '@angular/router@2.0.0-rc.1' }
+50 verbose cache add [ '@angular/router-deprecated@2.0.0-rc.1', null ]
+51 verbose cache add name=undefined spec="@angular/router-deprecated@2.0.0-rc.1" args=["@angular/router-deprecated@2.0.0-rc.1",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '@angular/router-deprecated@2.0.0-rc.1',
+52 verbose parsed url   path: '@angular/router-deprecated@2.0.0-rc.1',
+52 verbose parsed url   href: '@angular/router-deprecated@2.0.0-rc.1' }
+53 verbose cache add [ '@angular/upgrade@2.0.0-rc.1', null ]
+54 verbose cache add name=undefined spec="@angular/upgrade@2.0.0-rc.1" args=["@angular/upgrade@2.0.0-rc.1",null]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '@angular/upgrade@2.0.0-rc.1',
+55 verbose parsed url   path: '@angular/upgrade@2.0.0-rc.1',
+55 verbose parsed url   href: '@angular/upgrade@2.0.0-rc.1' }
+56 verbose already installed skipping systemjs@0.19.27 D:\Yearn\Angular2\Angular2
+57 verbose already installed skipping core-js@^2.4.0 D:\Yearn\Angular2\Angular2
+58 verbose already installed skipping reflect-metadata@^0.1.3 D:\Yearn\Angular2\Angular2
+59 verbose already installed skipping rxjs@5.4.2 D:\Yearn\Angular2\Angular2
+60 verbose cache add name="" spec="angular/common@2.0.0-rc.1" args=["","angular/common@2.0.0-rc.1"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'angular/common@2.0.0-rc.1',
+61 verbose parsed url   path: 'angular/common@2.0.0-rc.1',
+61 verbose parsed url   href: 'angular/common@2.0.0-rc.1' }
+62 verbose cache add name="" spec="angular/compiler@2.0.0-rc.1" args=["","angular/compiler@2.0.0-rc.1"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: 'angular/compiler@2.0.0-rc.1',
+63 verbose parsed url   path: 'angular/compiler@2.0.0-rc.1',
+63 verbose parsed url   href: 'angular/compiler@2.0.0-rc.1' }
+64 verbose cache add name="" spec="angular/core@2.0.0-rc.1" args=["","angular/core@2.0.0-rc.1"]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: 'angular/core@2.0.0-rc.1',
+65 verbose parsed url   path: 'angular/core@2.0.0-rc.1',
+65 verbose parsed url   href: 'angular/core@2.0.0-rc.1' }
+66 verbose cache add name="" spec="angular/http@2.0.0-rc.1" args=["","angular/http@2.0.0-rc.1"]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'angular/http@2.0.0-rc.1',
+67 verbose parsed url   path: 'angular/http@2.0.0-rc.1',
+67 verbose parsed url   href: 'angular/http@2.0.0-rc.1' }
+68 verbose cache add name="" spec="angular/platform-browser@2.0.0-rc.1" args=["","angular/platform-browser@2.0.0-rc.1"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'angular/platform-browser@2.0.0-rc.1',
+69 verbose parsed url   path: 'angular/platform-browser@2.0.0-rc.1',
+69 verbose parsed url   href: 'angular/platform-browser@2.0.0-rc.1' }
+70 verbose cache add name="" spec="angular/platform-browser-dynamic@2.0.0-rc.1" args=["","angular/platform-browser-dynamic@2.0.0-rc.1"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'angular/platform-browser-dynamic@2.0.0-rc.1',
+71 verbose parsed url   path: 'angular/platform-browser-dynamic@2.0.0-rc.1',
+71 verbose parsed url   href: 'angular/platform-browser-dynamic@2.0.0-rc.1' }
+72 verbose cache add name="" spec="angular/router@2.0.0-rc.1" args=["","angular/router@2.0.0-rc.1"]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'angular/router@2.0.0-rc.1',
+73 verbose parsed url   path: 'angular/router@2.0.0-rc.1',
+73 verbose parsed url   href: 'angular/router@2.0.0-rc.1' }
+74 verbose cache add name="" spec="angular/router-deprecated@2.0.0-rc.1" args=["","angular/router-deprecated@2.0.0-rc.1"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'angular/router-deprecated@2.0.0-rc.1',
+75 verbose parsed url   path: 'angular/router-deprecated@2.0.0-rc.1',
+75 verbose parsed url   href: 'angular/router-deprecated@2.0.0-rc.1' }
+76 verbose cache add name="" spec="angular/upgrade@2.0.0-rc.1" args=["","angular/upgrade@2.0.0-rc.1"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'angular/upgrade@2.0.0-rc.1',
+77 verbose parsed url   path: 'angular/upgrade@2.0.0-rc.1',
+77 verbose parsed url   href: 'angular/upgrade@2.0.0-rc.1' }
+78 verbose cache add name="angular/common" spec="2.0.0-rc.1" args=["angular/common","2.0.0-rc.1"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '2.0.0-rc.1',
+79 verbose parsed url   path: '2.0.0-rc.1',
+79 verbose parsed url   href: '2.0.0-rc.1' }
+80 verbose addNamed [ 'angular/common', '2.0.0-rc.1' ]
+81 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+82 verbose cache add name="angular/compiler" spec="2.0.0-rc.1" args=["angular/compiler","2.0.0-rc.1"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '2.0.0-rc.1',
+83 verbose parsed url   path: '2.0.0-rc.1',
+83 verbose parsed url   href: '2.0.0-rc.1' }
+84 verbose addNamed [ 'angular/compiler', '2.0.0-rc.1' ]
+85 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+86 verbose cache add name="angular/core" spec="2.0.0-rc.1" args=["angular/core","2.0.0-rc.1"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '2.0.0-rc.1',
+87 verbose parsed url   path: '2.0.0-rc.1',
+87 verbose parsed url   href: '2.0.0-rc.1' }
+88 verbose addNamed [ 'angular/core', '2.0.0-rc.1' ]
+89 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+90 verbose cache add name="angular/http" spec="2.0.0-rc.1" args=["angular/http","2.0.0-rc.1"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '2.0.0-rc.1',
+91 verbose parsed url   path: '2.0.0-rc.1',
+91 verbose parsed url   href: '2.0.0-rc.1' }
+92 verbose addNamed [ 'angular/http', '2.0.0-rc.1' ]
+93 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+94 verbose cache add name="angular/platform-browser" spec="2.0.0-rc.1" args=["angular/platform-browser","2.0.0-rc.1"]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '2.0.0-rc.1',
+95 verbose parsed url   path: '2.0.0-rc.1',
+95 verbose parsed url   href: '2.0.0-rc.1' }
+96 verbose addNamed [ 'angular/platform-browser', '2.0.0-rc.1' ]
+97 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+98 verbose cache add name="angular/platform-browser-dynamic" spec="2.0.0-rc.1" args=["angular/platform-browser-dynamic","2.0.0-rc.1"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '2.0.0-rc.1',
+99 verbose parsed url   path: '2.0.0-rc.1',
+99 verbose parsed url   href: '2.0.0-rc.1' }
+100 verbose addNamed [ 'angular/platform-browser-dynamic', '2.0.0-rc.1' ]
+101 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+102 verbose cache add name="angular/router" spec="2.0.0-rc.1" args=["angular/router","2.0.0-rc.1"]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: '2.0.0-rc.1',
+103 verbose parsed url   path: '2.0.0-rc.1',
+103 verbose parsed url   href: '2.0.0-rc.1' }
+104 verbose addNamed [ 'angular/router', '2.0.0-rc.1' ]
+105 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+106 verbose cache add name="angular/router-deprecated" spec="2.0.0-rc.1" args=["angular/router-deprecated","2.0.0-rc.1"]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: '2.0.0-rc.1',
+107 verbose parsed url   path: '2.0.0-rc.1',
+107 verbose parsed url   href: '2.0.0-rc.1' }
+108 verbose addNamed [ 'angular/router-deprecated', '2.0.0-rc.1' ]
+109 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+110 verbose cache add name="angular/upgrade" spec="2.0.0-rc.1" args=["angular/upgrade","2.0.0-rc.1"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '2.0.0-rc.1',
+111 verbose parsed url   path: '2.0.0-rc.1',
+111 verbose parsed url   href: '2.0.0-rc.1' }
+112 verbose addNamed [ 'angular/upgrade', '2.0.0-rc.1' ]
+113 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+114 silly lockFile e3e65f6f-angular-common-2-0-0-rc-1 angular/common@2.0.0-rc.1
+115 verbose lock angular/common@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\e3e65f6f-angular-common-2-0-0-rc-1.lock
+116 silly lockFile e76cb3f6-angular-compiler-2-0-0-rc-1 angular/compiler@2.0.0-rc.1
+117 verbose lock angular/compiler@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\e76cb3f6-angular-compiler-2-0-0-rc-1.lock
+118 silly lockFile b50e344d-angular-core-2-0-0-rc-1 angular/core@2.0.0-rc.1
+119 verbose lock angular/core@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\b50e344d-angular-core-2-0-0-rc-1.lock
+120 silly lockFile 2763ec9f-angular-http-2-0-0-rc-1 angular/http@2.0.0-rc.1
+121 verbose lock angular/http@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\2763ec9f-angular-http-2-0-0-rc-1.lock
+122 silly lockFile 05dd607d-ular-platform-browser-2-0-0-rc-1 angular/platform-browser@2.0.0-rc.1
+123 verbose lock angular/platform-browser@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\05dd607d-ular-platform-browser-2-0-0-rc-1.lock
+124 silly lockFile f43cd080-tform-browser-dynamic-2-0-0-rc-1 angular/platform-browser-dynamic@2.0.0-rc.1
+125 verbose lock angular/platform-browser-dynamic@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\f43cd080-tform-browser-dynamic-2-0-0-rc-1.lock
+126 silly lockFile e6ea399e-angular-router-2-0-0-rc-1 angular/router@2.0.0-rc.1
+127 verbose lock angular/router@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\e6ea399e-angular-router-2-0-0-rc-1.lock
+128 silly lockFile c27b9650-lar-router-deprecated-2-0-0-rc-1 angular/router-deprecated@2.0.0-rc.1
+129 verbose lock angular/router-deprecated@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\c27b9650-lar-router-deprecated-2-0-0-rc-1.lock
+130 silly lockFile eb01fcc2-angular-upgrade-2-0-0-rc-1 angular/upgrade@2.0.0-rc.1
+131 verbose lock angular/upgrade@2.0.0-rc.1 C:\Users\Administrator\AppData\Roaming\npm-cache\eb01fcc2-angular-upgrade-2-0-0-rc-1.lock
+132 verbose already installed skipping zone.js@^0.6.12 D:\Yearn\Angular2\Angular2
+133 verbose already installed skipping typescript@2.3.4 D:\Yearn\Angular2\Angular2
+134 verbose already installed skipping angular2-in-memory-web-api@0.0.9 D:\Yearn\Angular2\Angular2
+135 verbose already installed skipping concurrently@^2.2.0 D:\Yearn\Angular2\Angular2
+136 verbose already installed skipping gulp@^3.9.1 D:\Yearn\Angular2\Angular2
+137 verbose already installed skipping gulp-autoprefixer@^4.0.0 D:\Yearn\Angular2\Angular2
+138 verbose already installed skipping gulp-cache@^0.4.6 D:\Yearn\Angular2\Angular2
+139 verbose already installed skipping gulp-clean-css@^3.7.0 D:\Yearn\Angular2\Angular2
+140 verbose already installed skipping gulp-concat@^2.6.1 D:\Yearn\Angular2\Angular2
+141 verbose already installed skipping gulp-ext-replace@^0.3.0 D:\Yearn\Angular2\Angular2
+142 verbose already installed skipping gulp-gulp@0.0.5 D:\Yearn\Angular2\Angular2
+143 verbose already installed skipping gulp-imagemin@^3.3.0 D:\Yearn\Angular2\Angular2
+144 verbose already installed skipping gulp-jshint@^2.0.4 D:\Yearn\Angular2\Angular2
+145 verbose already installed skipping gulp-less@^3.3.2 D:\Yearn\Angular2\Angular2
+146 verbose already installed skipping gulp-minify-css@^1.2.4 D:\Yearn\Angular2\Angular2
+147 verbose already installed skipping gulp-minify-html@^1.0.6 D:\Yearn\Angular2\Angular2
+148 verbose url raw angular/compiler
+149 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/compiler' ]
+150 verbose url resolved http://registry.cnpmjs.org/angular/compiler
+151 info trying registry request attempt 1 at 16:08:32
+152 http GET http://registry.cnpmjs.org/angular/compiler
+153 verbose url raw angular/common
+154 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/common' ]
+155 verbose url resolved http://registry.cnpmjs.org/angular/common
+156 info trying registry request attempt 1 at 16:08:32
+157 http GET http://registry.cnpmjs.org/angular/common
+158 verbose url raw angular/core
+159 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/core' ]
+160 verbose url resolved http://registry.cnpmjs.org/angular/core
+161 info trying registry request attempt 1 at 16:08:32
+162 http GET http://registry.cnpmjs.org/angular/core
+163 verbose url raw angular/http
+164 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/http' ]
+165 verbose url resolved http://registry.cnpmjs.org/angular/http
+166 info trying registry request attempt 1 at 16:08:32
+167 http GET http://registry.cnpmjs.org/angular/http
+168 verbose already installed skipping gulp-rename@^1.2.2 D:\Yearn\Angular2\Angular2
+169 verbose already installed skipping gulp-typescript@^3.2.1 D:\Yearn\Angular2\Angular2
+170 verbose already installed skipping gulp-uglify@^3.0.0 D:\Yearn\Angular2\Angular2
+171 verbose already installed skipping lite-server@^2.2.2 D:\Yearn\Angular2\Angular2
+172 verbose already installed skipping typings@^1.3.2 D:\Yearn\Angular2\Angular2
+173 verbose url raw angular/platform-browser
+174 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/platform-browser' ]
+175 verbose url resolved http://registry.cnpmjs.org/angular/platform-browser
+176 info trying registry request attempt 1 at 16:08:32
+177 http GET http://registry.cnpmjs.org/angular/platform-browser
+178 verbose url raw angular/router
+179 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/router' ]
+180 verbose url resolved http://registry.cnpmjs.org/angular/router
+181 info trying registry request attempt 1 at 16:08:32
+182 http GET http://registry.cnpmjs.org/angular/router
+183 verbose url raw angular/router-deprecated
+184 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/router-deprecated' ]
+185 verbose url resolved http://registry.cnpmjs.org/angular/router-deprecated
+186 info trying registry request attempt 1 at 16:08:32
+187 http GET http://registry.cnpmjs.org/angular/router-deprecated
+188 verbose url raw angular/platform-browser-dynamic
+189 verbose url resolving [ 'http://registry.cnpmjs.org/',
+189 verbose url resolving   './angular/platform-browser-dynamic' ]
+190 verbose url resolved http://registry.cnpmjs.org/angular/platform-browser-dynamic
+191 info trying registry request attempt 1 at 16:08:32
+192 http GET http://registry.cnpmjs.org/angular/platform-browser-dynamic
+193 verbose url raw angular/upgrade
+194 verbose url resolving [ 'http://registry.cnpmjs.org/', './angular/upgrade' ]
+195 verbose url resolved http://registry.cnpmjs.org/angular/upgrade
+196 info trying registry request attempt 1 at 16:08:32
+197 http GET http://registry.cnpmjs.org/angular/upgrade
+198 http 404 http://registry.cnpmjs.org/angular/http
+199 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+199 verbose headers   date: 'Wed, 16 Aug 2017 08:08:44 GMT',
+199 verbose headers   'content-type': 'application/json; charset=utf-8',
+199 verbose headers   'transfer-encoding': 'chunked',
+199 verbose headers   connection: 'keep-alive',
+199 verbose headers   'x-current-requests': '1',
+199 verbose headers   'x-readtime': '3',
+199 verbose headers   'content-encoding': 'gzip' }
+200 silly registry.get cb [ 404,
+200 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+200 silly registry.get     date: 'Wed, 16 Aug 2017 08:08:44 GMT',
+200 silly registry.get     'content-type': 'application/json; charset=utf-8',
+200 silly registry.get     'transfer-encoding': 'chunked',
+200 silly registry.get     connection: 'keep-alive',
+200 silly registry.get     'x-current-requests': '1',
+200 silly registry.get     'x-readtime': '3',
+200 silly registry.get     'content-encoding': 'gzip' } ]
+201 silly lockFile 2763ec9f-angular-http-2-0-0-rc-1 angular/http@2.0.0-rc.1
+202 silly lockFile 2763ec9f-angular-http-2-0-0-rc-1 angular/http@2.0.0-rc.1
+203 http 404 http://registry.cnpmjs.org/angular/common
+204 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+204 verbose headers   date: 'Wed, 16 Aug 2017 08:08:44 GMT',
+204 verbose headers   'content-type': 'application/json; charset=utf-8',
+204 verbose headers   'transfer-encoding': 'chunked',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'x-current-requests': '1',
+204 verbose headers   'x-readtime': '3',
+204 verbose headers   'content-encoding': 'gzip' }
+205 silly registry.get cb [ 404,
+205 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+205 silly registry.get     date: 'Wed, 16 Aug 2017 08:08:44 GMT',
+205 silly registry.get     'content-type': 'application/json; charset=utf-8',
+205 silly registry.get     'transfer-encoding': 'chunked',
+205 silly registry.get     connection: 'keep-alive',
+205 silly registry.get     'x-current-requests': '1',
+205 silly registry.get     'x-readtime': '3',
+205 silly registry.get     'content-encoding': 'gzip' } ]
+206 silly lockFile e3e65f6f-angular-common-2-0-0-rc-1 angular/common@2.0.0-rc.1
+207 silly lockFile e3e65f6f-angular-common-2-0-0-rc-1 angular/common@2.0.0-rc.1
+208 http 404 http://registry.cnpmjs.org/angular/compiler
+209 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+209 verbose headers   date: 'Wed, 16 Aug 2017 08:08:44 GMT',
+209 verbose headers   'content-type': 'application/json; charset=utf-8',
+209 verbose headers   'transfer-encoding': 'chunked',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'x-current-requests': '1',
+209 verbose headers   'x-readtime': '3',
+209 verbose headers   'content-encoding': 'gzip' }
+210 silly registry.get cb [ 404,
+210 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+210 silly registry.get     date: 'Wed, 16 Aug 2017 08:08:44 GMT',
+210 silly registry.get     'content-type': 'application/json; charset=utf-8',
+210 silly registry.get     'transfer-encoding': 'chunked',
+210 silly registry.get     connection: 'keep-alive',
+210 silly registry.get     'x-current-requests': '1',
+210 silly registry.get     'x-readtime': '3',
+210 silly registry.get     'content-encoding': 'gzip' } ]
+211 silly lockFile e76cb3f6-angular-compiler-2-0-0-rc-1 angular/compiler@2.0.0-rc.1
+212 silly lockFile e76cb3f6-angular-compiler-2-0-0-rc-1 angular/compiler@2.0.0-rc.1
+213 error 404 404 Not Found: angular
+213 error 404
+213 error 404 'angular' is not in the npm registry.
+213 error 404 You should bug the author to publish it
+213 error 404 It was specified as a dependency of 'aspnet'
+213 error 404
+213 error 404 Note that you can also install from a
+213 error 404 tarball, folder, or http url, or git url.
+214 error System Windows_NT 6.2.9200
+215 error command "D:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node" "D:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+216 error cwd D:\Yearn\Angular2\Angular2
+217 error node -v v0.10.31
+218 error npm -v 1.4.9
+219 error code E404
+220 verbose exit [ 1, true ]
