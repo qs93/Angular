@@ -175,11 +175,56 @@
     <Content Include="app\components\todolist\todolist.component.css" />
     <Content Include="app\components\todolist\todolist.component.html" />
     <None Include="readme.md" />
+    <Content Include="gulpfile.js" />
     <Content Include="index.html" />
+    <Content Include="src\js\bootstrap.js" />
     <Content Include="systemjs.config.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="package.json" />
+    <Content Include="src\less\testss.less" />
+    <Content Include="src\less\boot\testss.less" />
+    <Content Include="src\cless\bootstrap\alerts.less" />
+    <Content Include="src\cless\bootstrap\badges.less" />
+    <Content Include="src\cless\bootstrap\bootstrap.less" />
+    <Content Include="src\cless\bootstrap\breadcrumbs.less" />
+    <Content Include="src\cless\bootstrap\button-groups.less" />
+    <Content Include="src\cless\bootstrap\buttons.less" />
+    <Content Include="src\cless\bootstrap\carousel.less" />
+    <Content Include="src\cless\bootstrap\close.less" />
+    <Content Include="src\cless\bootstrap\code.less" />
+    <Content Include="src\cless\bootstrap\component-animations.less" />
+    <Content Include="src\cless\bootstrap\dropdowns.less" />
+    <Content Include="src\cless\bootstrap\forms.less" />
+    <Content Include="src\cless\bootstrap\glyphicons.less" />
+    <Content Include="src\cless\bootstrap\grid.less" />
+    <Content Include="src\cless\bootstrap\input-groups.less" />
+    <Content Include="src\cless\bootstrap\jumbotron.less" />
+    <Content Include="src\cless\bootstrap\labels.less" />
+    <Content Include="src\cless\bootstrap\list-group.less" />
+    <Content Include="src\cless\bootstrap\media.less" />
+    <Content Include="src\cless\bootstrap\mixins.less" />
+    <Content Include="src\cless\bootstrap\modals.less" />
+    <Content Include="src\cless\bootstrap\navbar.less" />
+    <Content Include="src\cless\bootstrap\navs.less" />
+    <Content Include="src\cless\bootstrap\normalize.less" />
+    <Content Include="src\cless\bootstrap\pager.less" />
+    <Content Include="src\cless\bootstrap\pagination.less" />
+    <Content Include="src\cless\bootstrap\panels.less" />
+    <Content Include="src\cless\bootstrap\popovers.less" />
+    <Content Include="src\cless\bootstrap\print.less" />
+    <Content Include="src\cless\bootstrap\progress-bars.less" />
+    <Content Include="src\cless\bootstrap\responsive-embed.less" />
+    <Content Include="src\cless\bootstrap\responsive-utilities.less" />
+    <Content Include="src\cless\bootstrap\scaffolding.less" />
+    <Content Include="src\cless\bootstrap\tables.less" />
+    <Content Include="src\cless\bootstrap\theme.less" />
+    <Content Include="src\cless\bootstrap\thumbnails.less" />
+    <Content Include="src\cless\bootstrap\tooltip.less" />
+    <Content Include="src\cless\bootstrap\type.less" />
+    <Content Include="src\cless\bootstrap\utilities.less" />
+    <Content Include="src\cless\bootstrap\variables.less" />
+    <Content Include="src\cless\bootstrap\wells.less" />
     <None Include="_typingsrc" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -216,6 +261,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\app\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="src\cless\bootstrap\mixins\" />
+    <Folder Include="src\css\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -241,6 +291,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\ttt.ts" />
+    <TypeScriptCompile Include="src\ts\test.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
